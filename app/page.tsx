@@ -1,7 +1,11 @@
+import Banner from "./components/Banner";
+import Navbar from "./components/Navbar";
+
 export default function Home() {
   return (
     <div>
-      <h1>Welcome to Course Master</h1>
+      <Navbar />
+      <Banner />
     </div>
   );
 }
